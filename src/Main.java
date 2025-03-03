@@ -29,6 +29,7 @@ public class Main {
         teacher1.work();
 
         Workable[] wokers = {new Programmer(), new Teacher()};
-        System.out.println(Arrays.toString(wokers));
+        wokers[0].work();
+        wokers[1].work();
         }
 }
