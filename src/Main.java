@@ -29,7 +29,8 @@ public class Main {
         teacher1.work();
 
         Workable[] wokers = {new Programmer(), new Teacher()};
-        wokers[0].work();
-        wokers[1].work();
+        for (int i = 0; i < wokers.length; i++){
+            wokers[i].work();
         }
+    }
 }
